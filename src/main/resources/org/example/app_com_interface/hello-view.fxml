@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
    <center>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
          <children>
-            <TextField promptText="Usuário" />
-            <PasswordField promptText="Senha" />
-            <HBox alignment="CENTER" prefHeight="26.0" prefWidth="400.0">
+            <TextField promptText="Usuário">
+               <VBox.margin>
+                  <Insets left="100.0" right="100.0" />
+               </VBox.margin></TextField>
+            <PasswordField promptText="Senha">
+               <VBox.margin>
+                  <Insets left="100.0" right="100.0" />
+               </VBox.margin></PasswordField>
+            <HBox alignment="CENTER" prefHeight="26.0" prefWidth="400.0" spacing="35.0">
                <children>
-                  <CheckBox mnemonicParsing="false" text="CheckBox" />
-                  <Hyperlink text="Hyperlink" />
+                  <CheckBox mnemonicParsing="false" text="Lembrar senha" />
+                  <Hyperlink text="Criar conta" />
                </children>
             </HBox>
             <Button mnemonicParsing="false" text="Button" />
