@@ -8,7 +8,7 @@
    <center>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
          <children>
-            <TextField fx:id="txtUsuario" promptText="Usuário">
+            <TextField fx:id="txtUsuario" alignment="CENTER" promptText="Usuário">
                <VBox.margin>
                   <Insets left="100.0" right="100.0" />
                </VBox.margin></TextField>

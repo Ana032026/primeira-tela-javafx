@@ -20,10 +20,6 @@ public class HelloController {
     protected void onButtonLoginClick(){
         labelLogin.setText("Login realizado com sucesso");
 
-       
-
     }
-
-
 
 }
